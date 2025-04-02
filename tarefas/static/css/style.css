@@ -79,6 +79,10 @@ body {
 
 }
 
+.link{
+    text-decoration: none !important;
+}
+
 /* Footer */
 footer {
     width: auto !important;
