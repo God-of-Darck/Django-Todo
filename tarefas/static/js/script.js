@@ -1,9 +1,9 @@
 // função que pergunta para o usuario se ele quer mesmo escluir a tarefa
 
-document.querySelectorAll(".delete-btn").forEach(
+document.querySelectorAll('.delete-btn').forEach(
     btn => {
         btn.addEventListener("click", function(e){
-            e.preventDefalt();
+            e.preventDefault();
         
             const delLink = this.getAttribute("href");
 
@@ -14,4 +14,10 @@ document.querySelectorAll(".delete-btn").forEach(
             console.log("Olá Mundo")
         });
     }
-)
+);
+
+//função para pesquisar 
+document.getElementById(search-btn).addEventListener("click",function(){
+    document.getElementById("search-form").onsubmit();
+    
+});
